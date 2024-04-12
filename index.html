@@ -1013,7 +1013,9 @@ Coordination, Organizing Virtual meetings.
 
           <h3 class="h3 form-title">Contact Form</h3>
 
-          <form action="#" class="form" data-form>
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="31670ef6-2f73-4681-88c2-ab4741197c9a">
+            <input type="hidden" name="apikey" value="31670ef6-2f73-4681-88c2-ab4741197c9a">
 
             <div class="input-wrapper">
               <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
@@ -1023,7 +1025,7 @@ Coordination, Organizing Virtual meetings.
 
             <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
-            <button class="form-btn" type="submit" disabled data-form-btn>
+            <button class="form-btn" type="submit" >
               <ion-icon name="paper-plane"></ion-icon>
               <span>Send Message</span>
             </button>
